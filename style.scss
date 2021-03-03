@@ -1,0 +1,13 @@
+
+
+
+$primary:       #39a9f4 !default;
+$secondary:     #d9f2fd !default;
+$success:       $green !default;
+$info:          #0dcaf0 !default;
+$warning:       $yellow !default;
+$danger:        #d93024 !default;
+$light:         $gray-100 !default;
+$dark:          #202124 !default;
+
+@import "./node_modules/bootstrap/scss/bootstrap";

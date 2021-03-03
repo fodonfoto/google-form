@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body class="bg-secondary">
+    
+    <section class="header">
+        <div class="container">
+            <div class="row justify-content-center pt-3">
+                <div class="col-xl-7 col-lg-8 col-md-12 col-sm-12 col-12">
+                    <div class="bg-white rounded-4">
+                        <div class="border-head bg-primary w-100"></div>
+                        <h4 class="heading1 p-4">ดีไซน์เว็บแบบไหนที่คุณสนใจมากที่สุด</h4>
+                        <p class="paragraph1 px-4">จะเป็นการวัดผลวิเคราะห์จากองค์ประกอบส่วนต่างๆในเว็บไซต์เพื่อให้ได้ผลรับที่ดีที่สุด ขอความร่วมมือทุกคนด้วยนะจ้ะ :)</p>
+                        <p class="paragraph2 px-4 pb-4 text-danger">*จำเป็น</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="question">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-7 col-lg-8 col-md-12 col-sm-12 col-12">
+            <div class="bg-white rounded-4">
+              <p class="heading2 pt-4 px-4">ให้คะแนนสีปุ่มคลิกลงทะเบียนนี้ว่าคุณชอบมันไหม</p>
+              <img  class="img-a pb-4" src="img/Frame 137.png" width="100%" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="choice">
+      <div class="container">
+        <div class="row justify-content-center my-3">
+          <div class="col-xl-7 col-lg-8 col-md-12 col-sm-12 col-12">
+            <div class="bg-white rounded-4 pb-4">
+              <p class="heading3 pt-4 px-4">เลือกให้คะแนนของคุณ <span>*</span></p>
+              <div class="row justify-content-center align-items-end">
+                <div class="col-2 mx-1">
+                  <div class="choice-list text-center">
+                    <label class="holder"></label>
+                    <label class="not-like">ไม่ชอบ</label>
+                  </div>
+                </div>
+                <div class="col-1 mx-1">
+                  <div class="choice-list text-center">
+                    <label class="number1 pb-4 p-2">1</label>
+                    <input type="radio" id="number1" name="drone" value="number1">
+                  </div>
+                </div>
+                <div class="col-1 mx-1">
+                  <div class="choice-list text-center">
+                    <label class="number2 p-2 pb-4">2</label>
+                    <input type="radio" id="number2" name="drone" value="number2">
+                  </div>
+                </div>
+                <div class="col-1 mx-1">
+                  <div class="choice-list text-center">
+                    <label class="number3 pb-4 p-2">3</label>
+                    <input type="radio" id="number3" name="drone" value="number3">
+                  </div>
+                </div>
+                <div class="col-1 mx-1">
+                  <div class="choice-list text-center">
+                    <label class="number4 pb-4 p-2">4</label>
+                    <input type="radio" id="number3" name="drone" value="number3">
+                  </div>
+                </div>
+                <div class="col-1 mx-1">
+                  <div class="choice-list text-center">
+                    <label class="number5 pb-4 p-2">5</label>
+                    <input type="radio" id="number5" name="drone" value="number5">
+                  </div>
+                </div>
+                <div class="col-2 mx-1">
+                  <div class="choice-list text-center">
+                    <label for="holder"></label>
+                    <label class="like">ชอบมาก</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="email">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-7 col-lg-8 col-md-12 col-sm-12 col-12">
+            <div class="bg-white rounded-4 pb-3">
+              <label class="title px-4 pt-4">อีเมล์ของคุณ <span>*</span></label>
+              <div class="row">
+                <div class="col-11">
+                  <input class="text-email mx-4 my-4 w-100" type="email" id="email" placeholder="คำตอบของคุณ">
+                </div>
+              </div>
+            </div>
+            <input class="button btn-primary my-3" type="submit" value="ส่ง">
+            <div class="row">
+              <div class="col-6">
+                <p class="alert-text">ห้ามส่งรหัสผ่านใน Google ฟอร์ม</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="credit-end">
+        <div class="container-fluid text-center">
+          <div class="row justify-content-center">
+            <div class="col-11">
+              <p class="credit">เนื้อหานี้มิได้ถูกสร้างขึ้นหรือรับรองโดย Google 
+                <a class="blacklink" href="https://fodonfoto.github.io/.com/" target="_blank" >รายงานการละเมิล</a><span> - </span>
+                <a class="blacklink" href="https://fodonfoto.github.io/.com/" target="_blank" >ข้อกำหนดในการให้บริการ</a><span> - </span>
+                <a class="blacklink" href="https://fodonfoto.github.io/.com/" target="_blank" >นโยบายความเป็นส่วนตัว</a>
+              </p>
+            </div>
+          </div>
+          <div class="row justify-content-center mb-3">
+            <div class="col-6">
+              <img class="logo-brands" src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_dark_clr_74x24px.svg" alt="">
+              <a class="form align-middle" href="https://fodonfoto.github.io/.com/" target="_blank">ฟอร์ม</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
